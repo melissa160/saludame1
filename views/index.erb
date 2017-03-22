@@ -1,0 +1,8 @@
+
+<h1>Hola 
+<% if params[:nombre].nil? || params[:nombre] == "" %>
+		desconocido!
+	<% else %>
+		<%= params[:nombre]%>!
+<% end %>
+</h1>
